@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Security Essentials</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AWS Security Essentials</h1>
+
+        <h2>AWS Identity and Access Management (IAM)</h2>
+        <p>
+            AWS IAM enables you to manage access to AWS services and resources securely. It allows you to create and
+            manage AWS users and groups, assign permissions, and use features like Multi-Factor Authentication (MFA)
+            for an extra layer of security.
+        </p>
+
+        <h2>AWS Network Security</h2>
+        <p>
+            AWS provides a range of services to enhance network security within your cloud environment:
+        </p>
+        <ul>
+            <li>**Amazon VPC:** Create isolated virtual networks for your resources.</li>
+            <li>**Security Groups:** Act as virtual firewalls to control inbound and outbound traffic.</li>
+            <li>**NACLs (Network Access Control Lists):** Stateless rules controlling traffic at the subnet level.</li>
+            <li>**AWS VPN and Direct Connect:** Secure connections between on-premises data centers and AWS.</li>
+            <li>**Amazon GuardDuty:** A threat detection service for identifying malicious activity.</li>
+            <li>**VPC Flow Logs:** Capture information about IP traffic for security analysis.</li>
+            <li>**Elastic Load Balancing (ELB):** Distribute incoming traffic across multiple targets.</li>
+            <li>**PrivateLink:** Access services over a private connection, avoiding exposure to the public internet.</li>
+        </ul>
+
+        <h2>Data Encryption</h2>
+        <p>
+            AWS provides robust encryption mechanisms for data in transit and at rest. Use HTTPS for secure communication,
+            and leverage services like AWS Key Management Service (KMS) to manage encryption keys. Encrypt sensitive data
+            using industry-standard algorithms and practices.
+        </p>
+
+        <h2>Logging and Monitoring</h2>
+        <p>
+            Centralized logging and monitoring are critical for identifying and responding to security incidents.
+            AWS CloudTrail captures API calls, providing an audit trail for actions taken within your account.
+            Amazon CloudWatch allows you to collect and visualize logs and metrics, enabling proactive monitoring
+            of your resources.
+        </p>
+
+        <h2>Infrastructure Security</h2>
+        <p>
+            Secure your infrastructure by implementing principles of least privilege, regularly updating and patching
+            systems, and utilizing AWS security services like AWS WAF (Web Application Firewall) for protecting
+            web applications. AWS Inspector can help you identify vulnerabilities in your EC2 instances.
+        </p>
+
+       
+    </div>
+</body>
+
+</html>

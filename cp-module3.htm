@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Global Infrastructure</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AWS Global Infrastructure</h1>
+        <p>
+            Amazon Web Services (AWS) has a robust global infrastructure that enables customers to deploy
+            applications and services around the world. This infrastructure is designed for high availability,
+            fault tolerance, and low-latency performance.
+        </p>
+
+        <h2>Regions</h2>
+        <p>
+            AWS is organized into geographical regions, each consisting of multiple data centers known as Availability Zones.
+            Currently, AWS has regions in North America, South America, Europe, Asia Pacific, the Middle East, and Africa.
+            Each region is designed to be isolated from the others to provide fault tolerance.
+        </p>
+
+        <h2>Availability Zones</h2>
+        <p>
+            Availability Zones (AZs) are data centers within a region that are isolated from each other. They are connected
+            through low-latency links. Deploying applications across multiple AZs enhances fault tolerance and
+            ensures high availability.
+        </p>
+
+        <h2>Edge Locations</h2>
+        <p>
+            In addition to regions and Availability Zones, AWS has a network of Edge Locations. These locations are used by
+            the AWS Content Delivery Network (CDN), Amazon CloudFront, to cache and deliver content to end users with low latency.
+            Edge Locations are strategically positioned to provide efficient content delivery globally.
+        </p>
+
+        <h2>Services and Compliance</h2>
+        <p>
+            AWS services are available globally, but not all services are present in every region. Customers can choose the
+            region for their resources based on factors such as data residency requirements and service availability.
+            AWS adheres to various compliance standards to ensure the security and privacy of customer data.
+        </p>
+    </div>
+</body>
+
+</html>

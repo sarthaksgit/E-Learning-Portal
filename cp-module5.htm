@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Networking Basics</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AWS Networking Basics</h1>
+
+        <h2>Networking Basics</h2>
+        <p>
+            Networking is a fundamental component of cloud computing. It involves the communication of data between
+            various components, systems, and services. Understanding networking basics is crucial for designing and
+            implementing secure and efficient cloud architectures.
+        </p>
+
+        <h2>Amazon VPC (Virtual Private Cloud)</h2>
+        <p>
+            Amazon VPC allows you to provision a logically isolated section of the AWS Cloud where you can launch AWS
+            resources in a virtual network that you define. It provides control over your virtual networking environment,
+            including IP address ranges, subnets, route tables, and security settings.
+        </p>
+
+        <h2>VPC Networking</h2>
+        <p>
+            In a VPC, you can create multiple subnets, each in a different Availability Zone, to ensure high availability
+            and fault tolerance. Subnets are connected by route tables, and network traffic can be controlled using
+            Security Groups and Network Access Control Lists (NACLs).
+        </p>
+
+        <h2>VPC Security</h2>
+        <p>
+            VPC security is a critical aspect of AWS networking. Security Groups act as firewalls for instances,
+            controlling inbound and outbound traffic. Network ACLs provide an additional layer of control at the subnet
+            level. VPC Peering allows secure communication between VPCs, and VPN connections provide secure connections
+            to on-premises networks.
+        </p>
+    </div>
+</body>
+
+</html>

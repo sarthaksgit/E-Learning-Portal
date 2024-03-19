@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Storage Services</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AWS Storage Services</h1>
+
+        <h2>AWS EBS (Elastic Block Store)</h2>
+        <p>
+            Amazon EBS provides scalable block storage volumes that you can attach to EC2 instances. These volumes
+            are highly available and reliable, and you can choose from different volume types based on your specific
+            use case. EBS volumes persist independently from the life of an EC2 instance, making them suitable for
+            data that requires durability and persistence.
+        </p>
+
+        <h2>AWS S3 (Simple Storage Service)</h2>
+        <p>
+            Amazon S3 is a scalable object storage service designed to store and retrieve any amount of data from
+            anywhere on the web. S3 provides high durability, availability, and performance. It is commonly used for
+            backup and restore, archiving, data lakes, and as a static website hosting solution.
+        </p>
+
+        <h2>AWS EFS (Elastic File System)</h2>
+        <p>
+            Amazon EFS provides scalable file storage for use with AWS Cloud services and on-premises resources.
+            EFS is designed to be highly available and durable, and it can scale automatically as your storage needs
+            grow. It is suitable for a wide range of use cases, including big data analytics, media processing, and
+            content management systems.
+        </p>
+    </div>
+</body>
+
+</html>
